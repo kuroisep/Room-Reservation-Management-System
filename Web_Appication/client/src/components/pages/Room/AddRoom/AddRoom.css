@@ -1,0 +1,96 @@
+.forminput{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs div{
+    margin-bottom: 25px;
+}
+
+
+.building{
+
+}
+
+.building select{
+    margin-left: 15px;
+    width: 150px;
+    padding: 3px;
+    text-align: center;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.building label{}
+
+
+.idroom{}
+
+.idroom input{
+    margin-left:15px;
+    padding: 7px 10px;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 5px;
+    font-size:15px;
+}
+
+.idroom label{}
+
+.nameroom{}
+
+.nameroom input{
+    margin-left:60px;
+    padding: 7px 10px;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 5px;
+    font-size:15px;
+}
+
+.nameroom label{}
+
+.detail{
+
+}
+
+.detail textarea{
+    margin-left: 32px;
+    padding: 7px 10px;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 5px;
+    font-size:15px;
+    width: 250px;
+    height: 100px;
+    resize: none;
+}
+
+.detail label{
+    
+}
+
+.contributer{}
+
+.contributer input{
+    margin-left: 67px;
+    padding: 7px 10px;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 5px;
+    font-size:15px;
+}
+
+.contributer label{}
+
+.inputs button{
+    margin-top: 20px;
+    padding: 7px 30px;
+    font-size: 15px;
+    border:0px solid black;
+    background-color: #7FED58;
+    border-radius: 5px;
+}

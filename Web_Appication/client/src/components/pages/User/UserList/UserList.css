@@ -1,0 +1,60 @@
+.MainContainer{
+    
+
+}
+
+
+.TopContainer{
+    margin-left: 50px;
+    
+}
+
+.button-add-user{
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color:#3F478D ;
+    color : #D2D1FF;
+    border-width: 0px;
+}
+
+.TopContainer h1{
+    color : #3F478D;
+}
+
+.HeaderTable {
+
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0px 50px
+  }
+
+th , td {
+    width: 400px;
+    padding-left:  100px;
+    text-align: left;
+
+
+}
+
+th{
+    height: 50px;
+    color : #8789D6;
+    font-size: 20px;
+    border-bottom: 2px solid #C4C4C4;
+}
+
+td{
+    height: 70px;
+    color : #3F478D;
+    border-bottom: 1px solid #c4c4c4ce;
+
+}
+
+
+
+
