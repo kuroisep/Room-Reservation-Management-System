@@ -8,6 +8,7 @@ export default class ReqTableRow extends Component {
         this.state = {
           Name_Room : "",
           Name_Building : "",
+          Name_Contributer : "",
         };
       }
 
@@ -22,6 +23,7 @@ export default class ReqTableRow extends Component {
                         this.setState({
                             Name_Room : res.data[i].Name,
                             Name_Building : res.data[i].Building,
+                            Name_Contributer : res.data[i].Contributer,
                         })
                         break
                     }
@@ -40,7 +42,7 @@ export default class ReqTableRow extends Component {
                 <td>{this.props.obj.Participant}</td>
                 <td>{this.props.obj.Date_Reserve}</td>
                 <td>{this.props.obj.Name_User}</td>
-                <td>{this.props.obj.Name_Contributer}</td>
+                <td>{this.state.Name_Contributer}</td>
 
             </tr>
         )

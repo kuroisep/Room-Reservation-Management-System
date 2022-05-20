@@ -1,15 +1,11 @@
 const mongoose = require('mongoose')
 
 const RequestSchema = new mongoose.Schema({
-    Number_Room : {
+    ID_Room : {
         type : String,
         required : true
     },
     Name_User : {
-        type: String,
-        required : true,
-    },
-    Name_Contributer : {
         type: String,
         required : true,
     },
